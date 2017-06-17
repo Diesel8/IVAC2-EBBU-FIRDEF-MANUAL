@@ -1,0 +1,84 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Index"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/labels/introduction/",
+            "text": "Labels\n\n\nGeneral knowledge\n\n\nIVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.\n\n\nWhen using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the \nextended label\n.\n\n\nNext to that you will have different labels for different stages of the flight which we will explain in detail.\n\n\nThe labels have been designed to match the CANAC2 system used at Belgocontrol.\n\n\nWhat types of labels are there?\n\n\nAs said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).\n\n\nIn the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.\n\n\nGround Labels\n\n\nGround Default\n\nGround Departure traffic\n\nGround Arrival traffic\n\n\n\nAirborne labels\n\n\nAirborne psr (sqwk SBY)\n\nAirborne default (default airborne label)\n\nAirborne concerned (label when your sector has been set NEXT)\n\nAirborne assumed (assumed label)\n\nAirborne filtered (label when filter is active)\n\nAirborne released (released label)\n\n\n\nThe labels differ completely from IVAC1 so we will explain in detail what each label does.",
+            "title": "Introduction"
+        },
+        {
+            "location": "/labels/introduction/#labels",
+            "text": "",
+            "title": "Labels"
+        },
+        {
+            "location": "/labels/introduction/#general-knowledge",
+            "text": "IVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.  When using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the  extended label .  Next to that you will have different labels for different stages of the flight which we will explain in detail.  The labels have been designed to match the CANAC2 system used at Belgocontrol.",
+            "title": "General knowledge"
+        },
+        {
+            "location": "/labels/introduction/#what-types-of-labels-are-there",
+            "text": "As said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).  In the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.",
+            "title": "What types of labels are there?"
+        },
+        {
+            "location": "/labels/introduction/#ground-labels",
+            "text": "Ground Default\n\nGround Departure traffic\n\nGround Arrival traffic",
+            "title": "Ground Labels"
+        },
+        {
+            "location": "/labels/introduction/#airborne-labels",
+            "text": "Airborne psr (sqwk SBY)\n\nAirborne default (default airborne label)\n\nAirborne concerned (label when your sector has been set NEXT)\n\nAirborne assumed (assumed label)\n\nAirborne filtered (label when filter is active)\n\nAirborne released (released label)  The labels differ completely from IVAC1 so we will explain in detail what each label does.",
+            "title": "Airborne labels"
+        },
+        {
+            "location": "/labels/groundLabels/",
+            "text": "Ground Labels\n\n\nGeneral knowledge\n\n\nAs explained before, there are several labels for ground traffic.\nThese are:\n\n\n\n\nGround Default\n\n\nGround Departure traffic\n\n\nGround Arrival traffic\n\n\n\n\nDefault\n\n\n\n\nThe default Ground Label shows a white label background with black text. This label is used for 2 situations:\n\n\n\n\nThe aircraft did not send a flightplan;\n\n\nThe aircraft is a local flight (departure and arrival are the same airport)\n\n\n\n\nDeparture\n\n\n\n\nThe Departure Ground Label shows a cyan label background with black text.\n\n\nArrival\n\n\n\n\nThe Arrival Ground Label shows a green label background with white text.",
+            "title": "Ground Labels"
+        },
+        {
+            "location": "/labels/groundLabels/#ground-labels",
+            "text": "",
+            "title": "Ground Labels"
+        },
+        {
+            "location": "/labels/groundLabels/#general-knowledge",
+            "text": "As explained before, there are several labels for ground traffic.\nThese are:   Ground Default  Ground Departure traffic  Ground Arrival traffic",
+            "title": "General knowledge"
+        },
+        {
+            "location": "/labels/groundLabels/#default",
+            "text": "The default Ground Label shows a white label background with black text. This label is used for 2 situations:   The aircraft did not send a flightplan;  The aircraft is a local flight (departure and arrival are the same airport)",
+            "title": "Default"
+        },
+        {
+            "location": "/labels/groundLabels/#departure",
+            "text": "The Departure Ground Label shows a cyan label background with black text.",
+            "title": "Departure"
+        },
+        {
+            "location": "/labels/groundLabels/#arrival",
+            "text": "The Arrival Ground Label shows a green label background with white text.",
+            "title": "Arrival"
+        }
+    ]
+}
