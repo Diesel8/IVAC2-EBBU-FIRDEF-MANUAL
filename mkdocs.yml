@@ -1,0 +1,14 @@
+site_name: IVAC2 EBBU FIRDEF Manual
+pages:
+    - Home: index.md
+theme: 'united'
+
+# Pages   
+pages:
+  - Index: index.md
+  - Labels:
+    - Introduction: labels/introduction.md
+    - Ground Labels: labels/groundLabels.md
+
+
+
