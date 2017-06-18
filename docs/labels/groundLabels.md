@@ -45,13 +45,13 @@ The *extended label* shows us more infomration consisting of:
 
 The Departure Ground Label shows a cyan label background with black text.
 
-##Label Fields
+###Label Fields
 
 | Normal        | Extended      |
 | ------------- |---------------| 
 | ![Normal Ground Departure Label Image](ground-departure-normal.png "Normal Ground Departure Label Image")      | ![Extended Ground Departure Label Image](ground-departure-extended.png "Extended Ground Departure Label Image")  |
 
-The *normal label* shows us basic info such as callsign, aircraft type and wake turbulence category.
+The *normal label* shows us basic info such as callsign, aircraft type, wake turbulence category and runway (runway will only be shown when specified in the RWY Field).
 
 The *extended label* shows us more infomration consisting of:
 
@@ -73,13 +73,13 @@ The *extended label* shows us more infomration consisting of:
 
 The Arrival Ground Label shows a green label background with white text.
 
-##Label Fields
+###Label Fields
 
 | Normal        | Extended      |
 | ------------- |---------------| 
 | ![Normal Ground Arrival Label Image](ground-arrival-normal.png "Normal Ground Arrival Label Image")      | ![Extended Ground Arrival Label Image](ground-arrival-extended.png "Extended Ground Arrival Label Image")  |
 
-The *normal label* shows us basic info such as callsign, aircraft type and wake turbulence category.
+The *normal label* shows us basic info such as callsign, aircraft type, wake turbulence category and Gate (gate will only be shown when specified in the GATE Field).
 
 The *extended label* shows us more infomration consisting of:
 
