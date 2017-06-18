@@ -2,27 +2,17 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Index"
+            "text": "Welcome to the IVAC2 EBBu FIR Definition Manual\n\n\n\n\nWelcome to the IVAC2 EBBU FIR Definition (FIRDEF) Manual.\n\n\nThis manual will guide you through the features of the EBBU FIRDEF such as its maps, labels, symbols, ...\nThis manual does \nNOT\n teach you how to work with IVAC2. If you would like to learn more about IVAC2 itself please visit the \nTerminal2 Solutions Documentation\n.\n\n\nThe EBBU FIRDEF is still work in progress and not complete. This means the manual might not cover everything that is present in the FIRDEF. The manual itself is also work in progress so don't be alarmed when there are things missing, they will be gradually added.\n\n\nIf you would encounter problems, have suggestion or anything else you want to share about the FIRDEF, please post them on the correspond topic in the \nIVAO BeLux Region Forum section\n.\n\n\nAnd as a final note, IVAC2 FIRDEF works different from IVAC1 sectorfiles. You cannot alter maps or colours yourself. IVAC2 will check for a new version of the FIRDEF on each start-up so any changes make locally will be overwritten. If you have suggestion please refer to the IVAO BeLux Forum as explained above.",
+            "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
-        },
-        {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
-        },
-        {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#welcome-to-the-ivac2-ebbu-fir-definition-manual",
+            "text": "Welcome to the IVAC2 EBBU FIR Definition (FIRDEF) Manual.  This manual will guide you through the features of the EBBU FIRDEF such as its maps, labels, symbols, ...\nThis manual does  NOT  teach you how to work with IVAC2. If you would like to learn more about IVAC2 itself please visit the  Terminal2 Solutions Documentation .  The EBBU FIRDEF is still work in progress and not complete. This means the manual might not cover everything that is present in the FIRDEF. The manual itself is also work in progress so don't be alarmed when there are things missing, they will be gradually added.  If you would encounter problems, have suggestion or anything else you want to share about the FIRDEF, please post them on the correspond topic in the  IVAO BeLux Region Forum section .  And as a final note, IVAC2 FIRDEF works different from IVAC1 sectorfiles. You cannot alter maps or colours yourself. IVAC2 will check for a new version of the FIRDEF on each start-up so any changes make locally will be overwritten. If you have suggestion please refer to the IVAO BeLux Forum as explained above.",
+            "title": "Welcome to the IVAC2 EBBu FIR Definition Manual"
         },
         {
             "location": "/labels/introduction/",
-            "text": "Labels\n\n\nGeneral knowledge\n\n\nIVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.\n\n\nWhen using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the \nextended label\n.\n\n\nNext to that you will have different labels for different stages of the flight which we will explain in detail.\n\n\nThe labels have been designed to match the CANAC2 system used at Belgocontrol.\n\n\nWhat types of labels are there?\n\n\nAs said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).\n\n\nIn the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.\n\n\nGround Labels\n\n\nGround Default\n\nGround Departure traffic\n\nGround Arrival traffic\n\n\n\nAirborne labels\n\n\nAirborne psr (sqwk SBY)\n\nAirborne default (default airborne label)\n\nAirborne concerned (label when your sector has been set NEXT)\n\nAirborne assumed (assumed label)\n\nAirborne filtered (label when filter is active)\n\nAirborne released (released label)\n\n\n\nThe labels differ completely from IVAC1 so we will explain in detail what each label does.",
+            "text": "Labels\n\n\nGeneral knowledge\n\n\nIVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.\n\n\nWhen using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the \nextended label\n.\n\n\nNext to that you will have different labels for different stages of the flight which we will explain in detail.\n\n\nThe labels have been designed to match the CANAC2 system used at Belgocontrol.\n\n\nWhat types of labels are there?\n\n\nAs said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).\n\n\nIn the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.\n\n\nExtended Labels\n\n\nHere you have an example of the difference between a normal label and an extended one. This work both on airborn as ground traffic. What information is visible in what state will be explained seperatly in their own section.\n\n\n\n\n\n\n\n\nNormal\n\n\nExtended\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGround Labels\n\n\n\n\nGround Default\n\n\nGround Departure traffic\n\n\nGround Arrival traffic\n\n\n\n\nAirborne labels\n\n\n\n\nAirborne psr (sqwk SBY)\n\n\nAirborne default (default airborne label)\n\n\nAirborne concerned (label when your sector has been set NEXT)\n\n\nAirborne assumed (assumed label)\n\n\nAirborne filtered (label when filter is active)\n\n\nAirborne released (released label)\n\n\n\n\nThe labels differ completely from IVAC1 so we will explain in detail what each label does.",
             "title": "Introduction"
         },
         {
@@ -41,13 +31,18 @@
             "title": "What types of labels are there?"
         },
         {
+            "location": "/labels/introduction/#extended-labels",
+            "text": "Here you have an example of the difference between a normal label and an extended one. This work both on airborn as ground traffic. What information is visible in what state will be explained seperatly in their own section.     Normal  Extended",
+            "title": "Extended Labels"
+        },
+        {
             "location": "/labels/introduction/#ground-labels",
-            "text": "Ground Default\n\nGround Departure traffic\n\nGround Arrival traffic",
+            "text": "Ground Default  Ground Departure traffic  Ground Arrival traffic",
             "title": "Ground Labels"
         },
         {
             "location": "/labels/introduction/#airborne-labels",
-            "text": "Airborne psr (sqwk SBY)\n\nAirborne default (default airborne label)\n\nAirborne concerned (label when your sector has been set NEXT)\n\nAirborne assumed (assumed label)\n\nAirborne filtered (label when filter is active)\n\nAirborne released (released label)  The labels differ completely from IVAC1 so we will explain in detail what each label does.",
+            "text": "Airborne psr (sqwk SBY)  Airborne default (default airborne label)  Airborne concerned (label when your sector has been set NEXT)  Airborne assumed (assumed label)  Airborne filtered (label when filter is active)  Airborne released (released label)   The labels differ completely from IVAC1 so we will explain in detail what each label does.",
             "title": "Airborne labels"
         },
         {

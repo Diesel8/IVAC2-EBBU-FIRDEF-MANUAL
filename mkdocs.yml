@@ -5,7 +5,7 @@ theme: 'united'
 
 # Pages   
 pages:
-  - Index: index.md
+  - Home: index.md
   - Labels:
     - Introduction: labels/introduction.md
     - Ground Labels: labels/groundLabels.md
