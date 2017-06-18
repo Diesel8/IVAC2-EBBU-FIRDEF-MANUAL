@@ -113,7 +113,11 @@
         
             <li><a href="#departure">Departure</a></li>
         
+            <li><a href="#label-fields_1">Label Fields</a></li>
+        
             <li><a href="#arrival">Arrival</a></li>
+        
+            <li><a href="#label-fields_2">Label Fields</a></li>
         
     
     </ul>
@@ -136,12 +140,97 @@ These are:</p>
 <li>The aircraft did not send a flightplan;</li>
 <li>The aircraft is a local flight (departure and arrival are the same airport)</li>
 </ol>
+<h3 id="label-fields">Label Fields</h3>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Extended</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Normal Ground Default Label Image" src="../ground-default-normal.png" title="Normal Ground Default Label Image" /></td>
+<td><img alt="Extended Ground Default Label Image" src="../ground-default-extended.png" title="Extended Ground Default Label Image" /></td>
+</tr>
+</tbody>
+</table>
+<p>The <em>normal label</em> shows us basic info such as callsign, aircraft type and wake turbulence category.</p>
+<p>The <em>extended label</em> shows us more infomration consisting of:</p>
+<ul>
+<li><strong>BEL320</strong> - the <em>callsign</em>, left and right click on the callsign will open the <em>callsignmenu</em>, double clicking it will transfer it to the ATC Station selected in the <strong>NEXT</strong> field;</li>
+<li><strong>AGATE</strong> - used to specify the GATE to which and aircraft is instructed to taxi to, left click opens a text input window where you can write the gate number;</li>
+<li><strong>RWY</strong> - used to specify the <em>runway</em> the aircraft is assigned to (can be for arrival and departure), left click opens a text input window where you can enter the runway.</li>
+<li><strong>A320</strong> - the <em>aircraft type</em>, used to indicate what aircraft type the target is, no click actions;</li>
+<li><strong>M</strong> - the <em>wake turbulence category</em>, indicates what wake turbulence category the target is, this can be L (Light), M (Medium), H (Heavy) or J (Super). No click actions;</li>
+<li><strong>SID</strong> - this field shows the selected SID for that aircraft. Clicking on the SID field will open the DataLink Clearance window (DCL);</li>
+<li><strong>/CFL</strong> - this field shows the cleared Flight Level, clicking on it will open the Cleared Flight Level window on which you can select or type the cleared flight level;</li>
+<li><strong>OP_TEXT</strong> - in this field you can write whatever <em>Operational Text</em> you think is important for you or other controllers to know. This could be for instance "newbie". You can access it via left click;</li>
+<li><strong>SI</strong> - this field shows you who is in command of the aircraft. it will show you the "short ID" of that station. So if EBBR_N_TWR (short ID BR25R) would have assumed the aircraft, the SI would show BR25R. Left and right click opens the <em>NEXT window</em>, double click will set yourself as NEXT controller.</li>
+<li><strong>NEXT</strong> - this field tells you who will be the next controller. If you are EBBR_APP and the next controller would be EBBR_N_TWR, you should select EBBR_N_TWR (BR25R) as NEXT. The use of NEXT is very important as this also changes label states such as concerned and it allows you to transfer the traffic by double clicking the callsign. The NEXT field also manipulates the flight lists, especially the SI (Sector Inbound) flight list.</li>
+</ul>
 <h2 id="departure">Departure</h2>
 <p><img alt="Departure Ground Label" src="../departure.png" title="Departure Ground Label" /></p>
 <p>The Departure Ground Label shows a cyan label background with black text.</p>
+<h2 id="label-fields_1">Label Fields</h2>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Extended</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Normal Ground Departure Label Image" src="../ground-departure-normal.png" title="Normal Ground Departure Label Image" /></td>
+<td><img alt="Extended Ground Departure Label Image" src="../ground-departure-extended.png" title="Extended Ground Departure Label Image" /></td>
+</tr>
+</tbody>
+</table>
+<p>The <em>normal label</em> shows us basic info such as callsign, aircraft type and wake turbulence category.</p>
+<p>The <em>extended label</em> shows us more infomration consisting of:</p>
+<ul>
+<li><strong>BEL320</strong> - the <em>callsign</em>, left and right click on the callsign will open the <em>callsignmenu</em>, double clicking it will transfer it to the ATC Station selected in the <strong>NEXT</strong> field;</li>
+<li><strong>RWY</strong> - used to specify the <em>runway</em> the aircraft is assigned to (can be for arrival and departure), left click opens a text input window where you can enter the runway.</li>
+<li><strong>A320</strong> - the <em>aircraft type</em>, used to indicate what aircraft type the target is, no click actions;</li>
+<li><strong>M</strong> - the <em>wake turbulence category</em>, indicates what wake turbulence category the target is, this can be L (Light), M (Medium), H (Heavy) or J (Super). No click actions;</li>
+<li><strong>SID</strong> - this field shows the selected SID for that aircraft. Clicking on the SID field will open the DataLink Clearance window (DCL);</li>
+<li><strong>/CFL</strong> - this field shows the cleared Flight Level, clicking on it will open the Cleared Flight Level window on which you can select or type the cleared flight level;</li>
+<li><strong>OP_TEXT</strong> - in this field you can write whatever <em>Operational Text</em> you think is important for you or other controllers to know. This could be for instance "newbie". You can access it via left click;</li>
+<li><strong>EGPH</strong> - this field shows you the <em>destination airport</em> of the aircraft, in this example EGPH. Left click on this field opens the <em>Flightplan Window</em>, right click will show you the <em>Extrapolated Route</em>.</li>
+<li><strong>SI</strong> - this field shows you who is in command of the aircraft. it will show you the "short ID" of that station. So if EBBR_N_TWR (short ID BR25R) would have assumed the aircraft, the SI would show BR25R. Left and right click opens the <em>NEXT window</em>, double click will set yourself as NEXT controller.</li>
+<li><strong>NEXT</strong> - this field tells you who will be the next controller. If you are EBBR_APP and the next controller would be EBBR_N_TWR, you should select EBBR_N_TWR (BR25R) as NEXT. The use of NEXT is very important as this also changes label states such as concerned and it allows you to transfer the traffic by double clicking the callsign. The NEXT field also manipulates the flight lists, especially the SI (Sector Inbound) flight list.</li>
+</ul>
 <h2 id="arrival">Arrival</h2>
 <p><img alt="Arrival Ground Label" src="../arrival.png" title="Arrival Ground Label" /></p>
-<p>The Arrival Ground Label shows a green label background with white text.</p></div>
+<p>The Arrival Ground Label shows a green label background with white text.</p>
+<h2 id="label-fields_2">Label Fields</h2>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Extended</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Normal Ground Arrival Label Image" src="../ground-arrival-normal.png" title="Normal Ground Arrival Label Image" /></td>
+<td><img alt="Extended Ground Arrival Label Image" src="../ground-arrival-extended.png" title="Extended Ground Arrival Label Image" /></td>
+</tr>
+</tbody>
+</table>
+<p>The <em>normal label</em> shows us basic info such as callsign, aircraft type and wake turbulence category.</p>
+<p>The <em>extended label</em> shows us more infomration consisting of:</p>
+<ul>
+<li><strong>BEL320</strong> - the <em>callsign</em>, left and right click on the callsign will open the <em>callsignmenu</em>, double clicking it will transfer it to the ATC Station selected in the <strong>NEXT</strong> field;</li>
+<li><strong>GATE</strong> - used to specify the GATE to which and aircraft is instructed to taxi to, left click opens a text input window where you can write the gate number;</li>
+<li><strong>A320</strong> - the <em>aircraft type</em>, used to indicate what aircraft type the target is, no click actions;</li>
+<li><strong>M</strong> - the <em>wake turbulence category</em>, indicates what wake turbulence category the target is, this can be L (Light), M (Medium), H (Heavy) or J (Super). No click actions;</li>
+<li><strong>OP_TEXT</strong> - in this field you can write whatever <em>Operational Text</em> you think is important for you or other controllers to know. This could be for instance "newbie". You can access it via left click;</li>
+<li><strong>SI</strong> - this field shows you who is in command of the aircraft. it will show you the "short ID" of that station. So if EBBR_N_TWR (short ID BR25R) would have assumed the aircraft, the SI would show BR25R. Left and right click opens the <em>NEXT window</em>, double click will set yourself as NEXT controller.</li>
+<li><strong>NEXT</strong> - this field tells you who will be the next controller. If you are EBBR_APP and the next controller would be EBBR_N_TWR, you should select EBBR_N_TWR (BR25R) as NEXT. The use of NEXT is very important as this also changes label states such as concerned and it allows you to transfer the traffic by double clicking the callsign. The NEXT field also manipulates the flight lists, especially the SI (Sector Inbound) flight list.</li>
+<li><strong>LEMD</strong> - this field shows you the <em>departure airport</em> of the aircraft, in this example LEMD. Right click will show you the <em>Extrapolated Route</em>.</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
