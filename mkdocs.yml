@@ -16,5 +16,12 @@ pages:
     - Introduction: presets/introduction.md
     - List of presets: presets/list.md
 
+# Other
+repo_url: https://github.com/Diesel8/IVAC2-EBBU-FIRDEF-MANUAL/
+edit_uri: edit/master/docs/
+site_author: Jessy Stas
+copyright: 'Copyright &copy; 2017 Jessy Stas'
+
+
 
 
