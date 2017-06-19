@@ -149,6 +149,66 @@
             "location": "/labels/airbornelabels/#filtered",
             "text": "The  extended label  is the same as the  normal label  for filtered targets and consists of the following details:   Line 1  Callsign  - the  callsign , left and right click on the callsign will open the  callsignmenu , double clicking it will  assume  the target;    Line 2      Actual level  - the actual altitude shown as flight level, of the aircraft;  climb/descent arrow  - indicates if the aircraft is climbing or descending.",
             "title": "Filtered"
+        },
+        {
+            "location": "/labels/labelindicators/",
+            "text": "Label indicators\n\n\nIVAC2 has a functionality where parts of the label will change a color depending on a cartain state such as \ntransfer\n, \nSpecial Purpose Indicator (ident)\n, \nnext station\n, ...\n\n\nWe will sum them up here so you know what each indicator means.\n\n\nTransfer Request\n\n\nWhenever you request a transfer of communications for a target to another sector (=controller) or another sector requests a transfer of communications to you the callsign of that aircraft will turn green.\n\n\n\n\nSpecial Purpose Indicator\n\n\nThe special purpose indicator, which is used for squawk ident looks like this:\n\n\n\n\nText Only (CPDLC) Indicator\n\n\nWhen an aircraft is Text Only (CPDLC in IVAC2) it will show you a rectangle around the callsign. The example below is ground traffic but it works the same for airborne traffic.\n\n\nWhen an aircaft is CPDLC only, IVAC2 will translate label inputs such as \ncleared waypoint\n, \ncleared flight level\n, \ntransfer\n ... into a CPDLC message to the pilot. In the \ncleared flight level\n input it will even send a CPDLC when selecting \nCA (cleared approach)\n and \nLA (Land)\n. So you won't need to type much yourself anymore.\n\n\n\n\nEmergency\n\n\nWhenever an aircraft is in an emergency and has entered 7700 in its transponder, a red \nEMERG\n will be shown above the callsign and inside the extended label the SQ code will also turn red.\n\n\n\n\nCOMFAIL\n\n\nWhenever an aircraft has a failure of communications (known as COMFAIL) and has entered 7600 in its transponder, a red \nCOMFAIL\n will be shown above the callsign and inside the extended label the SQ code will also turn red.\n\n\n\n\nSTCA\n\n\nSTCA - Short Term Conflict Advisory. Targets will get a red rectangle around the label if they are less than 1000ft vertically separated and less than 5 miles laterally. A red \nSTCA\n will also be shown above the callsign.\n\n\n\n\nPoint\n\n\nInside the \ncallsignmenu\n you can opt to \npoint\n a target.\nTargets which are pointed out have a box drawn around their label in a contrasting colour which is visible to \nall\n controllers using IVAC2. Usefull when you want the next sector to easily find a target for coordination.\n\n\n\n\nMark\n\n\nInside the \ncallsignmenu\n you can opt to \nmark\n a target. Usefull when there is something special with that target and you don't want to forget it or lose track of it.\nTargets which are marked have a box drawn around their label which is visible just to yourself.\n\n\n\n\nExtrapolate\n\n\nActivating extrapolate on a target will show you the \nextrapolated\n route of that target as filed in the flightplan.\n\n\n\n\nTrack\n\n\nActivating track on a target will show you the track the aircraft has been flying since you have connected or since the aircraft started moving.",
+            "title": "Label Indicators"
+        },
+        {
+            "location": "/labels/labelindicators/#label-indicators",
+            "text": "IVAC2 has a functionality where parts of the label will change a color depending on a cartain state such as  transfer ,  Special Purpose Indicator (ident) ,  next station , ...  We will sum them up here so you know what each indicator means.",
+            "title": "Label indicators"
+        },
+        {
+            "location": "/labels/labelindicators/#transfer-request",
+            "text": "Whenever you request a transfer of communications for a target to another sector (=controller) or another sector requests a transfer of communications to you the callsign of that aircraft will turn green.",
+            "title": "Transfer Request"
+        },
+        {
+            "location": "/labels/labelindicators/#special-purpose-indicator",
+            "text": "The special purpose indicator, which is used for squawk ident looks like this:",
+            "title": "Special Purpose Indicator"
+        },
+        {
+            "location": "/labels/labelindicators/#text-only-cpdlc-indicator",
+            "text": "When an aircraft is Text Only (CPDLC in IVAC2) it will show you a rectangle around the callsign. The example below is ground traffic but it works the same for airborne traffic.  When an aircaft is CPDLC only, IVAC2 will translate label inputs such as  cleared waypoint ,  cleared flight level ,  transfer  ... into a CPDLC message to the pilot. In the  cleared flight level  input it will even send a CPDLC when selecting  CA (cleared approach)  and  LA (Land) . So you won't need to type much yourself anymore.",
+            "title": "Text Only (CPDLC) Indicator"
+        },
+        {
+            "location": "/labels/labelindicators/#emergency",
+            "text": "Whenever an aircraft is in an emergency and has entered 7700 in its transponder, a red  EMERG  will be shown above the callsign and inside the extended label the SQ code will also turn red.",
+            "title": "Emergency"
+        },
+        {
+            "location": "/labels/labelindicators/#comfail",
+            "text": "Whenever an aircraft has a failure of communications (known as COMFAIL) and has entered 7600 in its transponder, a red  COMFAIL  will be shown above the callsign and inside the extended label the SQ code will also turn red.",
+            "title": "COMFAIL"
+        },
+        {
+            "location": "/labels/labelindicators/#stca",
+            "text": "STCA - Short Term Conflict Advisory. Targets will get a red rectangle around the label if they are less than 1000ft vertically separated and less than 5 miles laterally. A red  STCA  will also be shown above the callsign.",
+            "title": "STCA"
+        },
+        {
+            "location": "/labels/labelindicators/#point",
+            "text": "Inside the  callsignmenu  you can opt to  point  a target.\nTargets which are pointed out have a box drawn around their label in a contrasting colour which is visible to  all  controllers using IVAC2. Usefull when you want the next sector to easily find a target for coordination.",
+            "title": "Point"
+        },
+        {
+            "location": "/labels/labelindicators/#mark",
+            "text": "Inside the  callsignmenu  you can opt to  mark  a target. Usefull when there is something special with that target and you don't want to forget it or lose track of it.\nTargets which are marked have a box drawn around their label which is visible just to yourself.",
+            "title": "Mark"
+        },
+        {
+            "location": "/labels/labelindicators/#extrapolate",
+            "text": "Activating extrapolate on a target will show you the  extrapolated  route of that target as filed in the flightplan.",
+            "title": "Extrapolate"
+        },
+        {
+            "location": "/labels/labelindicators/#track",
+            "text": "Activating track on a target will show you the track the aircraft has been flying since you have connected or since the aircraft started moving.",
+            "title": "Track"
         }
     ]
 }
