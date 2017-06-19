@@ -219,6 +219,76 @@
             "location": "/labels/labelindicators/#track",
             "text": "Activating track on a target will show you the track the aircraft has been flying since you have connected or since the aircraft started moving.",
             "title": "Track"
+        },
+        {
+            "location": "/presets/introduction/",
+            "text": "Presets Introduction\n\n\nUnlike the MAPS window, which only switches a single map attribute on or off, making a selection in the PRESETS menu can make multiple changes to the display, including opening INSET windows for specific use.\n\n\nPresets are used to define a set of maps which can be linked to an ATC station. These are often linked to a specific ATC Station which can be selected in the \nIVAC2 Launcher\n.\n\n\nPresets can also be used to change maps for a certain purpose. In EBBU you can for instance control \nExtended Centerline\n, you can activate \nALL\n easterly Extended Centerlines or \nALL\n westerly Extended Centerlines.\n\n\nWe will go more in depth in what each preset does in the \nPresets List\n page",
+            "title": "Introduction"
+        },
+        {
+            "location": "/presets/introduction/#presets-introduction",
+            "text": "Unlike the MAPS window, which only switches a single map attribute on or off, making a selection in the PRESETS menu can make multiple changes to the display, including opening INSET windows for specific use.  Presets are used to define a set of maps which can be linked to an ATC station. These are often linked to a specific ATC Station which can be selected in the  IVAC2 Launcher .  Presets can also be used to change maps for a certain purpose. In EBBU you can for instance control  Extended Centerline , you can activate  ALL  easterly Extended Centerlines or  ALL  westerly Extended Centerlines.  We will go more in depth in what each preset does in the  Presets List  page",
+            "title": "Presets Introduction"
+        },
+        {
+            "location": "/presets/list/",
+            "text": "Presets List\n\n\nACC\n\n\n\n\nACC\n - activates the maps required for EBBU W and EBBU E\n\n\nACC + MUAC\n - activates EBBU W, EBBU E and the delegated airspaces above NL and DE\n\n\nACC + MUAC EAST\n - activates EBBU E and the delegated airspaces above NL and DE\n\n\nACC EAST\n - activates EBBU E\n\n\nACC WEST\n - activates EBBU W\n\n\nFIS\n - activates the maps requiured for Flight Information Servives (EBBU FSS)\n\n\n\n\nEBAW\n\n\n\n\nEBAW TWR\n - activates the maps used for EBAW TWR\n\n\n\n\nEBBR\n\n\n\n\nARR 01/DEP 07\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR 19/DEP 19-25R\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR 25R/DEP 19-25R\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR/DEP 01\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR/DEP 07\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR/DEP 19\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR/DEP 25R-L\n - activates the maps for these runway operations (such as stopbars, centerlines, ...)\n\n\nARR 25R/L CATIII\n - activates the maps for these runway operations in CATIII conditions (such as stopbars, centerlines, ...)\n\n\nEBBR APP DEP FINAL\n - activates the maps used for EBBR APP, EBBR DEP and EBBR FINAL APP\n\n\nEBBR DEL/GND\n - activates the maps used for EBBR DEL and EBBR GND\n\n\n\n\nEBCI\n\n\n\n\nEBCI APP\n - activates the maps used for EBCI APP\n\n\nEBCI GND\n - activates the maps used for EBCI GND\n\n\nEBCI TWR\n - activates the maps used for EBCI TWR\n\n\n\n\nEBLG\n\n\n\n\nEBLG APP\n - activates the maps used for EBLG APP\n\n\nEBLG GND\n - activates the maps used for EBLG GND\n\n\nEBLG TWR\n - activates the maps used for EBLG TWR\n\n\n\n\nEBOS\n\n\n\n\nEBOS APP\n - activates the maps used for EBOS APP\n\n\nEBOS TWR\n - activates the maps used for EBOS TWR\n\n\n\n\nMilitary\n\n\n\n\nEBBE APP\n - activates the maps used for EBBE APP\n\n\nEBBE TWR\n - activates the maps used for EBBE TWR\n\n\n\n\nMUAC\n\n\n\n\nEDYY BRU\n - activates the maps used for EDYY BRU\n\n\n\n\nRWY\n\n\n\n\nRWY East\n - actiavtes extended centerlines for all easterly runways\n\n\nRWY West\n - actiavtes extended centerlines for all westerly runways\n\n\n\n\nSMR (Surface Movement Radar)\n\n\n\n\nEBAW\n - opens an \ninset\n showing the SMR of EBAW\n\n\nEBBR\n - opens an \ninset\n showing the SMR of EBBR\n\n\nEBCI\n - opens an \ninset\n showing the SMR of EBCI\n\n\nEBOS\n - opens an \ninset\n showing the SMR of EBOS",
+            "title": "List of presets"
+        },
+        {
+            "location": "/presets/list/#presets-list",
+            "text": "",
+            "title": "Presets List"
+        },
+        {
+            "location": "/presets/list/#acc",
+            "text": "ACC  - activates the maps required for EBBU W and EBBU E  ACC + MUAC  - activates EBBU W, EBBU E and the delegated airspaces above NL and DE  ACC + MUAC EAST  - activates EBBU E and the delegated airspaces above NL and DE  ACC EAST  - activates EBBU E  ACC WEST  - activates EBBU W  FIS  - activates the maps requiured for Flight Information Servives (EBBU FSS)",
+            "title": "ACC"
+        },
+        {
+            "location": "/presets/list/#ebaw",
+            "text": "EBAW TWR  - activates the maps used for EBAW TWR",
+            "title": "EBAW"
+        },
+        {
+            "location": "/presets/list/#ebbr",
+            "text": "ARR 01/DEP 07  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR 19/DEP 19-25R  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR 25R/DEP 19-25R  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR/DEP 01  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR/DEP 07  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR/DEP 19  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR/DEP 25R-L  - activates the maps for these runway operations (such as stopbars, centerlines, ...)  ARR 25R/L CATIII  - activates the maps for these runway operations in CATIII conditions (such as stopbars, centerlines, ...)  EBBR APP DEP FINAL  - activates the maps used for EBBR APP, EBBR DEP and EBBR FINAL APP  EBBR DEL/GND  - activates the maps used for EBBR DEL and EBBR GND",
+            "title": "EBBR"
+        },
+        {
+            "location": "/presets/list/#ebci",
+            "text": "EBCI APP  - activates the maps used for EBCI APP  EBCI GND  - activates the maps used for EBCI GND  EBCI TWR  - activates the maps used for EBCI TWR",
+            "title": "EBCI"
+        },
+        {
+            "location": "/presets/list/#eblg",
+            "text": "EBLG APP  - activates the maps used for EBLG APP  EBLG GND  - activates the maps used for EBLG GND  EBLG TWR  - activates the maps used for EBLG TWR",
+            "title": "EBLG"
+        },
+        {
+            "location": "/presets/list/#ebos",
+            "text": "EBOS APP  - activates the maps used for EBOS APP  EBOS TWR  - activates the maps used for EBOS TWR",
+            "title": "EBOS"
+        },
+        {
+            "location": "/presets/list/#military",
+            "text": "EBBE APP  - activates the maps used for EBBE APP  EBBE TWR  - activates the maps used for EBBE TWR",
+            "title": "Military"
+        },
+        {
+            "location": "/presets/list/#muac",
+            "text": "EDYY BRU  - activates the maps used for EDYY BRU",
+            "title": "MUAC"
+        },
+        {
+            "location": "/presets/list/#rwy",
+            "text": "RWY East  - actiavtes extended centerlines for all easterly runways  RWY West  - actiavtes extended centerlines for all westerly runways",
+            "title": "RWY"
+        },
+        {
+            "location": "/presets/list/#smr-surface-movement-radar",
+            "text": "EBAW  - opens an  inset  showing the SMR of EBAW  EBBR  - opens an  inset  showing the SMR of EBBR  EBCI  - opens an  inset  showing the SMR of EBCI  EBOS  - opens an  inset  showing the SMR of EBOS",
+            "title": "SMR (Surface Movement Radar)"
         }
     ]
 }

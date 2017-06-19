@@ -12,6 +12,9 @@ pages:
     - Ground Labels: labels/groundLabels.md
     - Airborne Labels: labels/airbornelabels.md
     - Label Indicators: labels/labelindicators.md
+  - Presets:
+    - Introduction: presets/introduction.md
+    - List of presets: presets/list.md
 
 
 

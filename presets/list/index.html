@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Label Indicators - IVAC2 EBBU FIRDEF Manual</title>
+	<title>List of presets - IVAC2 EBBU FIRDEF Manual</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,8 +56,47 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labels <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../labels/introduction/">Introduction</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../labels/labelsymbols/">Label Symbols</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../labels/groundLabels/">Ground Labels</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../labels/airbornelabels/">Airborne Labels</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../labels/labelindicators/">Label Indicators</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presets <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
@@ -67,47 +106,8 @@
 
                     
                         
-<li >
-    <a href="../labelsymbols/">Label Symbols</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../groundLabels/">Ground Labels</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../airbornelabels/">Airborne Labels</a>
-</li>
-
-                    
-                        
 <li class="active">
-    <a href="./">Label Indicators</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presets <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="../../presets/introduction/">Introduction</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../presets/list/">List of presets</a>
+    <a href="./">List of presets</a>
 </li>
 
                     
@@ -125,12 +125,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../airbornelabels/">
+                    <a rel="next" href="../introduction/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../../presets/introduction/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -144,69 +144,98 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#label-indicators">Label indicators</a></li>
+        <li class="main active"><a href="#presets-list">Presets List</a></li>
         
-            <li><a href="#transfer-request">Transfer Request</a></li>
+            <li><a href="#acc">ACC</a></li>
         
-            <li><a href="#special-purpose-indicator">Special Purpose Indicator</a></li>
+            <li><a href="#ebaw">EBAW</a></li>
         
-            <li><a href="#text-only-cpdlc-indicator">Text Only (CPDLC) Indicator</a></li>
+            <li><a href="#ebbr">EBBR</a></li>
         
-            <li><a href="#emergency">Emergency</a></li>
+            <li><a href="#ebci">EBCI</a></li>
         
-            <li><a href="#comfail">COMFAIL</a></li>
+            <li><a href="#eblg">EBLG</a></li>
         
-            <li><a href="#stca">STCA</a></li>
+            <li><a href="#ebos">EBOS</a></li>
         
-            <li><a href="#point">Point</a></li>
+            <li><a href="#military">Military</a></li>
         
-            <li><a href="#mark">Mark</a></li>
+            <li><a href="#muac">MUAC</a></li>
         
-            <li><a href="#extrapolate">Extrapolate</a></li>
+            <li><a href="#rwy">RWY</a></li>
         
-            <li><a href="#track">Track</a></li>
+            <li><a href="#smr-surface-movement-radar">SMR (Surface Movement Radar)</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="label-indicators">Label indicators</h1>
-<p>IVAC2 has a functionality where parts of the label will change a color depending on a cartain state such as <em>transfer</em>, <em>Special Purpose Indicator (ident)</em>, <em>next station</em>, ...</p>
-<p>We will sum them up here so you know what each indicator means.</p>
-<h2 id="transfer-request">Transfer Request</h2>
-<p>Whenever you request a transfer of communications for a target to another sector (=controller) or another sector requests a transfer of communications to you the callsign of that aircraft will turn green.</p>
-<p><img alt="Transfer Label Image" src="../transfer.png" title="Transfer Label Image" /></p>
-<h2 id="special-purpose-indicator">Special Purpose Indicator</h2>
-<p>The special purpose indicator, which is used for squawk ident looks like this:</p>
-<p><img alt="Special Purpose Label Image" src="../spi.png" title="Special Purpose Indicator Label Image" /></p>
-<h2 id="text-only-cpdlc-indicator">Text Only (CPDLC) Indicator</h2>
-<p>When an aircraft is Text Only (CPDLC in IVAC2) it will show you a rectangle around the callsign. The example below is ground traffic but it works the same for airborne traffic.</p>
-<p>When an aircaft is CPDLC only, IVAC2 will translate label inputs such as <em>cleared waypoint</em>, <em>cleared flight level</em>, <em>transfer</em> ... into a CPDLC message to the pilot. In the <em>cleared flight level</em> input it will even send a CPDLC when selecting <em>CA (cleared approach)</em> and <em>LA (Land)</em>. So you won't need to type much yourself anymore.</p>
-<p><img alt="CPDLC Label Image" src="../cpdlc.png" title="CPDLC Label Image" /></p>
-<h2 id="emergency">Emergency</h2>
-<p>Whenever an aircraft is in an emergency and has entered 7700 in its transponder, a red <em>EMERG</em> will be shown above the callsign and inside the extended label the SQ code will also turn red.</p>
-<p><img alt="EMERG Label Image" src="../emerg.png" title="Emergency Label Image" /></p>
-<h2 id="comfail">COMFAIL</h2>
-<p>Whenever an aircraft has a failure of communications (known as COMFAIL) and has entered 7600 in its transponder, a red <em>COMFAIL</em> will be shown above the callsign and inside the extended label the SQ code will also turn red.</p>
-<p><img alt="COMFAIL Label Image" src="../comfail.png" title="COMFAIL Label Image" /></p>
-<h2 id="stca">STCA</h2>
-<p>STCA - Short Term Conflict Advisory. Targets will get a red rectangle around the label if they are less than 1000ft vertically separated and less than 5 miles laterally. A red <em>STCA</em> will also be shown above the callsign.</p>
-<p><img alt="STCA Label Image" src="../stca.png" title="STCA Label Image" /></p>
-<h2 id="point">Point</h2>
-<p>Inside the <em>callsignmenu</em> you can opt to <em>point</em> a target.
-Targets which are pointed out have a box drawn around their label in a contrasting colour which is visible to <strong>all</strong> controllers using IVAC2. Usefull when you want the next sector to easily find a target for coordination.</p>
-<p><img alt="Point Label Image" src="../point.png" title="Point Label Image" /></p>
-<h2 id="mark">Mark</h2>
-<p>Inside the <em>callsignmenu</em> you can opt to <em>mark</em> a target. Usefull when there is something special with that target and you don't want to forget it or lose track of it.
-Targets which are marked have a box drawn around their label which is visible just to yourself.</p>
-<p><img alt="Mark Label Image" src="../mark.png" title="Mark Label Image" /></p>
-<h2 id="extrapolate">Extrapolate</h2>
-<p>Activating extrapolate on a target will show you the <em>extrapolated</em> route of that target as filed in the flightplan.</p>
-<p><img alt="EXPLT Image" src="../explt.png" title="EXPLT Image" /></p>
-<h2 id="track">Track</h2>
-<p>Activating track on a target will show you the track the aircraft has been flying since you have connected or since the aircraft started moving.</p>
-<p><img alt="Track Image" src="../track.png" title="Track Image" /></p></div>
+<h1 id="presets-list">Presets List</h1>
+<h2 id="acc">ACC</h2>
+<ul>
+<li><strong>ACC</strong> - activates the maps required for EBBU W and EBBU E</li>
+<li><strong>ACC + MUAC</strong> - activates EBBU W, EBBU E and the delegated airspaces above NL and DE</li>
+<li><strong>ACC + MUAC EAST</strong> - activates EBBU E and the delegated airspaces above NL and DE</li>
+<li><strong>ACC EAST</strong> - activates EBBU E</li>
+<li><strong>ACC WEST</strong> - activates EBBU W</li>
+<li><strong>FIS</strong> - activates the maps requiured for Flight Information Servives (EBBU FSS)</li>
+</ul>
+<h2 id="ebaw">EBAW</h2>
+<ul>
+<li><strong>EBAW TWR</strong> - activates the maps used for EBAW TWR</li>
+</ul>
+<h2 id="ebbr">EBBR</h2>
+<ul>
+<li><strong>ARR 01/DEP 07</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR 19/DEP 19-25R</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR 25R/DEP 19-25R</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR/DEP 01</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR/DEP 07</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR/DEP 19</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR/DEP 25R-L</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
+<li><strong>ARR 25R/L CATIII</strong> - activates the maps for these runway operations in CATIII conditions (such as stopbars, centerlines, ...)</li>
+<li><strong>EBBR APP DEP FINAL</strong> - activates the maps used for EBBR APP, EBBR DEP and EBBR FINAL APP</li>
+<li><strong>EBBR DEL/GND</strong> - activates the maps used for EBBR DEL and EBBR GND</li>
+</ul>
+<h2 id="ebci">EBCI</h2>
+<ul>
+<li><strong>EBCI APP</strong> - activates the maps used for EBCI APP</li>
+<li><strong>EBCI GND</strong> - activates the maps used for EBCI GND</li>
+<li><strong>EBCI TWR</strong> - activates the maps used for EBCI TWR</li>
+</ul>
+<h2 id="eblg">EBLG</h2>
+<ul>
+<li><strong>EBLG APP</strong> - activates the maps used for EBLG APP</li>
+<li><strong>EBLG GND</strong> - activates the maps used for EBLG GND</li>
+<li><strong>EBLG TWR</strong> - activates the maps used for EBLG TWR</li>
+</ul>
+<h2 id="ebos">EBOS</h2>
+<ul>
+<li><strong>EBOS APP</strong> - activates the maps used for EBOS APP</li>
+<li><strong>EBOS TWR</strong> - activates the maps used for EBOS TWR</li>
+</ul>
+<h2 id="military">Military</h2>
+<ul>
+<li><strong>EBBE APP</strong> - activates the maps used for EBBE APP</li>
+<li><strong>EBBE TWR</strong> - activates the maps used for EBBE TWR</li>
+</ul>
+<h2 id="muac">MUAC</h2>
+<ul>
+<li><strong>EDYY BRU</strong> - activates the maps used for EDYY BRU</li>
+</ul>
+<h2 id="rwy">RWY</h2>
+<ul>
+<li><strong>RWY East</strong> - actiavtes extended centerlines for all easterly runways</li>
+<li><strong>RWY West</strong> - actiavtes extended centerlines for all westerly runways</li>
+</ul>
+<h2 id="smr-surface-movement-radar">SMR (Surface Movement Radar)</h2>
+<ul>
+<li><strong>EBAW</strong> - opens an <em>inset</em> showing the SMR of EBAW</li>
+<li><strong>EBBR</strong> - opens an <em>inset</em> showing the SMR of EBBR</li>
+<li><strong>EBCI</strong> - opens an <em>inset</em> showing the SMR of EBCI</li>
+<li><strong>EBOS</strong> - opens an <em>inset</em> showing the SMR of EBOS</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
