@@ -8,6 +8,7 @@ pages:
   - Home: index.md
   - Labels:
     - Introduction: labels/introduction.md
+    - Label Symbols: labels/labelsymbols.md
     - Ground Labels: labels/groundLabels.md
     - Airborne Labels: labels/airbornelabels.md
     - Label Indicators: labels/labelindicators.md

@@ -18,6 +18,12 @@
     </url>
         
     <url>
+     <loc>/labels/labelsymbols/</loc>
+     <lastmod>2017-06-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/labels/groundLabels/</loc>
      <lastmod>2017-06-19</lastmod>
      <changefreq>daily</changefreq>
