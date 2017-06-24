@@ -17,7 +17,7 @@ In the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one fo
 
 ###Extended Labels
 
-Here you have an example of the difference between a normal label and an extended one. This work both on airborn as ground traffic. What information is visible in what state will be explained seperatly in their own section.
+Here you have an example of the difference between a normal label and an extended one. This works both on airborne as ground traffic. What information is visible in what state will be explained seperatly in their own section.
 
 | Normal        | Extended      |
 | ------------- |---------------| 

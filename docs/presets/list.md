@@ -48,7 +48,7 @@
 * **RWY East** - actiavtes extended centerlines for all easterly runways
 * **RWY West** - actiavtes extended centerlines for all westerly runways
 
-##SMR (Surface Movement Radar)
+##SMR (*Surface Movement Radar*)
 * **EBAW** - opens an *inset* showing the SMR of EBAW
 * **EBBR** - opens an *inset* showing the SMR of EBBR
 * **EBCI** - opens an *inset* showing the SMR of EBCI

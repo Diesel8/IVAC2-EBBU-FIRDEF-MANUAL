@@ -50,7 +50,7 @@ Airborne released will be shown when you have released or transfered a target.
 
 ![Airborne filtered Label](airbornefiltered.png "Airborne filtered Label")
 
-Airborne filtered can be *Airborne default* or *Airborn released* but will show less info if it falls under the filter limits set via the filter function.
+Airborne filtered can be *Airborne default* or *Airborne released* but will show less info if it falls under the filter limits set via the filter function.
 
 ##Label Fields
 
@@ -82,8 +82,10 @@ The *extended label* shows us more infomration consisting of:
 	* **Requested Flight Level** - shows the requested flight level of the target as filed in the flightplan. Left click to *Set Requested Flight Level*;
 * Line 4
 	* **Departure Aerodrome** - shows the filed departure aerodrome of the target. **Left click** opens/closes the *flightplan window*, **right click** activates/deactivates *extrapolate* for the target and **double click** activates/deactivates the *track function* of the target;
-	* **Sector entry cleared waypoint** - (coordinated) waypoint in which the target will enter the next sector. Left click to *Set coordinated entry point*, right click activates/deactivates *extrapolate* for the target;
-	* **Sector entry level** - (coordinated) level to enter the next sector in flight level. Left click to set *Planned entry level*;
+	* **Sector entry cleared waypoint (COPN)** - (coordinated) waypoint in which the target will enter the next sector. Left click to *Set coordinated entry point*, right click activates/deactivates *extrapolate* for the target;
+	* **XCOP** - The eXit Co-Ordination Point, the waypoint at which the target is planned to leave your sector, left click to edit;
+	* **Sector entry level (PEL)** - (coordinated) level to enter your sector in flight level. Left click to set *Planned Entry Level*;
+	* **XFL**  - The eXit Flight Level, the flight-level at which the target is planned to leave your sector, left click to edit;
 	* **Destination aerodrome** - shows the filed destination aerodrome of the target. **Left click** opens/closes the *flightplan window*, **right click** activates/deactivates *extrapolate* for the target;
 * Line 5
 	* **OP_TEXT** - in this field you can write whatever *Operational Text* you think is important for you or other controllers to know. This could be for instance "newbie". You can access it via left click.

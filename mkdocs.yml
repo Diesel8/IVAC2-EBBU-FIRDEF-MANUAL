@@ -6,6 +6,10 @@ theme: 'united'
 # Pages   
 pages:
   - Home: index.md
+  - Menus:
+    - Introduction : menus/introduction.md
+    - General Pop-up: menus/general.md
+    - Target Pop-up: menus/target.md
   - Labels:
     - Introduction: labels/introduction.md
     - Label Symbols: labels/labelsymbols.md
