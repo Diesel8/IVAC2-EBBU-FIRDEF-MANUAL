@@ -12,12 +12,12 @@
         },
         {
             "location": "/menus/introduction/",
-            "text": "Menus Introduction\n\n\nThe pop up menu can be triggered by either left or right mouse click depending on the configuration. One of three different menus will appear depending on whether the pointer is over a radar target label or not:\n\n\n\n\nGeneral pop up\n\n\nTarget pop up\n\n\nCallsign pop up\n\n\n\n\n\n\n\n\n\n\nGeneral\n\n\nTarget\n\n\nCallsign",
+            "text": "Menus Introduction\n\n\nThe pop up menu can be triggered by either left or right mouse click depending on the configuration. One of three different menus will appear depending on whether the pointer is over a radar target label or not:\n\n\n\n\nGeneral pop up\n\n\nTarget pop up\n\n\nCallsign pop up\n\n\nNEXT pop up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral\n\n\nTarget\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCallsign\n\n\nNext",
             "title": "Introduction"
         },
         {
             "location": "/menus/introduction/#menus-introduction",
-            "text": "The pop up menu can be triggered by either left or right mouse click depending on the configuration. One of three different menus will appear depending on whether the pointer is over a radar target label or not:   General pop up  Target pop up  Callsign pop up      General  Target  Callsign",
+            "text": "The pop up menu can be triggered by either left or right mouse click depending on the configuration. One of three different menus will appear depending on whether the pointer is over a radar target label or not:   General pop up  Target pop up  Callsign pop up  NEXT pop up        General  Target                Callsign  Next",
             "title": "Menus Introduction"
         },
         {
@@ -204,6 +204,41 @@
             "location": "/menus/callsign/#mark",
             "text": "Toggles the \u201cMark\u201d indicator for the selected target; if the target is already marked, then the menu option is highlighted and changes to \u201cXMARK\u201d and used to cancel the mark.  Targets which are marked have a box drawn around their label which is visible just to yourself.",
             "title": "MARK"
+        },
+        {
+            "location": "/menus/next/",
+            "text": "NEXT Pop Up Menu\n\n\nThe \nNEXT Pop Up Menu\n is part of the \nCallsign Pop Up Menu\n and is used to set the NEXT frequency/controller for the aircraft.\n\n\nIt is accesible through the \nCallsign Pop Up Menu\n by pressing \nNEXT\n in that menu.\n\n\nThe title of the menu will indicate the callsign of the target upon which the menu options will take effect, followed by the word \u201cNEXT\u201d.\n\n\nThe NEXT Pop Up Menu looks like this\n\n\n\n\nATCs\n\n\nThe top part of the menu lists the various ATC positions which are currently online and within network visibility of your current position. Selecting one of these atc positions from the menu will store it for future use as the next controller for that specific target to make contact with; it will NOT request them to make contact or assign control to them at that time. If one of the ATCs in the list is currently assigned as the next controller, it will be highlighted in the list.\n\n\nIf you have a large radar range, then the list of available ATC's could be potentially very long, in which case a scroll-bar may also be displayed.\n\n\nCONTACT > <frequency>\n\n\nThis will send a message to the selected target (as a CPDLC transmission) instructing them to contact the controller making the request. The transmission will also include the COM frequency required to make the contact.\n\n\nCLEAR\n\n\nRemoves a previously assigned \u201cnext\u201d assignment from the selected target.\n\n\nCANCEL\n\n\nCancels any changes which may have been made to the \u201cnext\u201d assignment from this use of the menu, restoring whatever was previously assigned.\n\n\nEXECUTE\n\n\nSelects the ATC highlighted from the list at the top of the menu, and assigns it as the \u201cnext\u201d controller, then closes the menu. This can also be achieved by double-clicking the ATC name in the list.",
+            "title": "Next Pop Up"
+        },
+        {
+            "location": "/menus/next/#next-pop-up-menu",
+            "text": "The  NEXT Pop Up Menu  is part of the  Callsign Pop Up Menu  and is used to set the NEXT frequency/controller for the aircraft.  It is accesible through the  Callsign Pop Up Menu  by pressing  NEXT  in that menu.  The title of the menu will indicate the callsign of the target upon which the menu options will take effect, followed by the word \u201cNEXT\u201d.  The NEXT Pop Up Menu looks like this",
+            "title": "NEXT Pop Up Menu"
+        },
+        {
+            "location": "/menus/next/#atcs",
+            "text": "The top part of the menu lists the various ATC positions which are currently online and within network visibility of your current position. Selecting one of these atc positions from the menu will store it for future use as the next controller for that specific target to make contact with; it will NOT request them to make contact or assign control to them at that time. If one of the ATCs in the list is currently assigned as the next controller, it will be highlighted in the list.  If you have a large radar range, then the list of available ATC's could be potentially very long, in which case a scroll-bar may also be displayed.",
+            "title": "ATCs"
+        },
+        {
+            "location": "/menus/next/#contact-frequency",
+            "text": "This will send a message to the selected target (as a CPDLC transmission) instructing them to contact the controller making the request. The transmission will also include the COM frequency required to make the contact.",
+            "title": "CONTACT &gt; &#60;frequency&gt;"
+        },
+        {
+            "location": "/menus/next/#clear",
+            "text": "Removes a previously assigned \u201cnext\u201d assignment from the selected target.",
+            "title": "CLEAR"
+        },
+        {
+            "location": "/menus/next/#cancel",
+            "text": "Cancels any changes which may have been made to the \u201cnext\u201d assignment from this use of the menu, restoring whatever was previously assigned.",
+            "title": "CANCEL"
+        },
+        {
+            "location": "/menus/next/#execute",
+            "text": "Selects the ATC highlighted from the list at the top of the menu, and assigns it as the \u201cnext\u201d controller, then closes the menu. This can also be achieved by double-clicking the ATC name in the list.",
+            "title": "EXECUTE"
         },
         {
             "location": "/labels/introduction/",
@@ -484,6 +519,16 @@
             "location": "/presets/list/#smr-surface-movement-radar",
             "text": "EBAW  - opens an  inset  showing the SMR of EBAW  EBBR  - opens an  inset  showing the SMR of EBBR  EBCI  - opens an  inset  showing the SMR of EBCI  EBOS  - opens an  inset  showing the SMR of EBOS",
             "title": "SMR (Surface Movement Radar)"
+        },
+        {
+            "location": "/dcl/dcl/",
+            "text": "DCL - Data-link Clearance\n\n\n\n\nThe data-link clearance dialogue box is used to calculated, assign, and optionally communicate, IFR flight-plan clearances.\n\n\n\n\nCallsign\n - will be automatically completed based on the selected target.\n\n\nCleared to\n - will be automatically completed as the destination airport from the flight-plan of the selected target.\n\n\nRunway\n - the drop-down list allows selection of the departure runway. If that departure runway has been specified in the ATIS for the departure airport, then this will be used by default.\n\n\nSID\n - once the runway has been specified, the SID will be calculated based on the flight-plan using data in the FIR DEF. In the event that more than one SID matches the departure airport/runway, it is not specified which will be returned; there is currently no way to make an alternative choice in the current version of IVAC2. Please note that FIR DEFs may include SIDs which are dependant on multiple conditions, such as aircraft type, time-of-day, and available equipment.\n\n\nTransition\n - not used in the current version of IVAC2.\n\n\nSquawk\n - the controller may manually enter the 4-digit transponder squawk code to be assigned to this target.\n\n\nNext Freq\n - the frequency which the pilot of the target aircraft should contact after receiving their clearance; use the drop-down list of available controllers to make the selection. Select yourself if you wish the pilot to remain on your frequency.\n\n\nDeparture\n - will be automatically completed as the departure airport from the flight-plan of the selected target.\n\n\nATIS\n - will be automatically completed as your current ATIS letter.\n\n\nATC RMK\n - this can be optionally completed with any additional text which you require to be included with the clearance.\n\n\nCLD\n - this text is gradually built-up as data is input into the dialog; it represents the actual transmission which will be made to the target when clicking the \u201cSEND DCL\u201d button.\n\n\n\n\nThe buttons along the bottom of the dialogue are as follows:\n\n\n\n\nVOICE\n - used if the clearance has been read to the pilot over the voice channel. IVAC2 will assign the various label tags such as SID, CFL but not transmit the clearance using CPDLC.\n\n\nSEND DCL\n - this will send the text in the CLD box, using CPDLC, to the specified target; the various label tags such as SID, CFL will also be updated according to the clearance.\n\n\nFPL\n - Open the Flight-Plan dialogue box.\n\n\nCLEAR SID\n - No funtcion yet, it is the same as \nCANCEL\n.\n\n\nCANCEL\n - closes the dialogue without making any transmission or updating the label tags.\n\n\n\n\nSee the Terminal2 Solutions short tutorial video on DCL using IVAC2.",
+            "title": "DCL"
+        },
+        {
+            "location": "/dcl/dcl/#dcl-data-link-clearance",
+            "text": "The data-link clearance dialogue box is used to calculated, assign, and optionally communicate, IFR flight-plan clearances.   Callsign  - will be automatically completed based on the selected target.  Cleared to  - will be automatically completed as the destination airport from the flight-plan of the selected target.  Runway  - the drop-down list allows selection of the departure runway. If that departure runway has been specified in the ATIS for the departure airport, then this will be used by default.  SID  - once the runway has been specified, the SID will be calculated based on the flight-plan using data in the FIR DEF. In the event that more than one SID matches the departure airport/runway, it is not specified which will be returned; there is currently no way to make an alternative choice in the current version of IVAC2. Please note that FIR DEFs may include SIDs which are dependant on multiple conditions, such as aircraft type, time-of-day, and available equipment.  Transition  - not used in the current version of IVAC2.  Squawk  - the controller may manually enter the 4-digit transponder squawk code to be assigned to this target.  Next Freq  - the frequency which the pilot of the target aircraft should contact after receiving their clearance; use the drop-down list of available controllers to make the selection. Select yourself if you wish the pilot to remain on your frequency.  Departure  - will be automatically completed as the departure airport from the flight-plan of the selected target.  ATIS  - will be automatically completed as your current ATIS letter.  ATC RMK  - this can be optionally completed with any additional text which you require to be included with the clearance.  CLD  - this text is gradually built-up as data is input into the dialog; it represents the actual transmission which will be made to the target when clicking the \u201cSEND DCL\u201d button.   The buttons along the bottom of the dialogue are as follows:   VOICE  - used if the clearance has been read to the pilot over the voice channel. IVAC2 will assign the various label tags such as SID, CFL but not transmit the clearance using CPDLC.  SEND DCL  - this will send the text in the CLD box, using CPDLC, to the specified target; the various label tags such as SID, CFL will also be updated according to the clearance.  FPL  - Open the Flight-Plan dialogue box.  CLEAR SID  - No funtcion yet, it is the same as  CANCEL .  CANCEL  - closes the dialogue without making any transmission or updating the label tags.   See the Terminal2 Solutions short tutorial video on DCL using IVAC2.",
+            "title": "DCL - Data-link Clearance"
         }
     ]
 }

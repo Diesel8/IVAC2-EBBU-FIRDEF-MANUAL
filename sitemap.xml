@@ -35,6 +35,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>/menus/next/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -85,6 +91,14 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>/dcl/dcl/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
