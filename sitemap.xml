@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,32 +12,60 @@
     
         
     <url>
+     <loc>/menus/introduction/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/menus/general/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/menus/target/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/menus/callsign/</loc>
+     <lastmod>2017-07-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>/labels/introduction/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/labels/labelsymbols/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/labels/groundLabels/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/labels/airbornelabels/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/labels/labelindicators/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -47,13 +75,13 @@
         
     <url>
      <loc>/presets/introduction/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/presets/list/</loc>
-     <lastmod>2017-06-19</lastmod>
+     <lastmod>2017-07-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

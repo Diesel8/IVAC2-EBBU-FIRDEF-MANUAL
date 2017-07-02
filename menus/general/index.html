@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>List of presets - IVAC2 EBBU FIRDEF Manual</title>
+	<title>General Pop Up - IVAC2 EBBU FIRDEF Manual</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,31 +56,31 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menus <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../menus/introduction/">Introduction</a>
+    <a href="../introduction/">Introduction</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">General Pop Up</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/general/">General Pop Up</a>
+    <a href="../target/">Target Pop Up</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/target/">Target Pop Up</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../menus/callsign/">Callsign Pop Up</a>
+    <a href="../callsign/">Callsign Pop Up</a>
 </li>
 
                     
@@ -128,19 +128,19 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presets <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../introduction/">Introduction</a>
+    <a href="../../presets/introduction/">Introduction</a>
 </li>
 
                     
                         
-<li class="active">
-    <a href="./">List of presets</a>
+<li >
+    <a href="../../presets/list/">List of presets</a>
 </li>
 
                     
@@ -162,8 +162,8 @@
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="prev" >
+                <li >
+                    <a rel="prev" href="../target/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -186,98 +186,90 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#presets-list">Presets List</a></li>
+        <li class="main active"><a href="#general-pop-up-menu">General Pop Up Menu</a></li>
         
-            <li><a href="#acc">ACC</a></li>
+            <li><a href="#qdm">QDM</a></li>
         
-            <li><a href="#ebaw">EBAW</a></li>
+            <li><a href="#clean">CLEAN</a></li>
         
-            <li><a href="#ebbr">EBBR</a></li>
+            <li><a href="#maps">MAPS</a></li>
         
-            <li><a href="#ebci">EBCI</a></li>
+            <li><a href="#gnd">GND</a></li>
         
-            <li><a href="#eblg">EBLG</a></li>
+    
+        <li class="main "><a href="#text">TEXT &gt;</a></li>
         
-            <li><a href="#ebos">EBOS</a></li>
+            <li><a href="#brt">BRT</a></li>
         
-            <li><a href="#military">Military</a></li>
+            <li><a href="#filters">FILTERS</a></li>
         
-            <li><a href="#muac">MUAC</a></li>
+            <li><a href="#qlook">QLOOK</a></li>
         
-            <li><a href="#rwy">RWY</a></li>
+            <li><a href="#full">FULL</a></li>
         
-            <li><a href="#smr-surface-movement-radar">SMR (Surface Movement Radar)</a></li>
+            <li><a href="#menu">MENU</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="presets-list">Presets List</h1>
-<h2 id="acc">ACC</h2>
+<h1 id="general-pop-up-menu">General Pop Up Menu</h1>
+<p>The <em>General Pop Up Menu</em> can be triggerd by pressing the right mouse button anywhere on the main radar screen, just not over a label or target.</p>
+<p>And it looks like this</p>
+<p><img alt="General Menu Image" src="../generalmenu.png" title="General Menu Image" /></p>
+<h2 id="qdm">QDM</h2>
+<p>Displays the magnetic compass direction from the current mouse position to wherever the pointer is moved; when the mouse is next clicked, a line will be drawn between the two points. The numbers at the end of the line indicate the magnetic bearing from the initial point to the end point, and the number after the “/” indicates the distance between them in miles. If a radar target is double-clicked at the end of the QDM line, it will be locked to that line and move with the target, constantly updating the bearing and distance.</p>
+<p><img alt="General QDM Image" src="../qdm1.png" title="General QDM Image" /></p>
+<p>Notice that the QDM in the image above starts at EBBR and goes towards the aircraft. In this example, EWG6900 is at bearing of 104 degrees and at 72.1 nautical miles from EBBR, as seen from EBBR. If you would want to know the oposite direction you would need to use the QDM function of the <em>target or callsign pop up menu</em>.</p>
+<p><em>The QDM from the general menu will start where you right clicked on the radar to open the pop up menu</em></p>
+<h2 id="clean">CLEAN</h2>
+<p>The clean function removes any and all temporarily added aid lines which have been drawn, including QDM, SEP, and EXPLT.</p>
+<h2 id="maps">MAPS</h2>
+<p>Opens up a separate window which lists the map options available in your FIR. The MAPS window may be left open, or closed after making a selection from it.</p>
+<h2 id="gnd">GND</h2>
+<p>Toggles the visibility of labels for unassumed targets on the ground; if you are a radar controller you probably want ground labels turned off.</p>
+<p><em>When zoomed in enough on an airport the ground labels will become visible even if GND is off</em></p>
+<h1 id="text">TEXT &gt;</h1>
+<p>Opens a dialogue box to input a text message to be sent to all pilots of the aircraft using the your COM frequency.</p>
+<p>In a text entry dialog, special-use commands may be entered:</p>
 <ul>
-<li><strong>ACC</strong> - activates the maps required for EBBU W and EBBU E</li>
-<li><strong>ACC + MUAC</strong> - activates EBBU W, EBBU E and the delegated airspaces above NL and DE</li>
-<li><strong>ACC + MUAC EAST</strong> - activates EBBU E and the delegated airspaces above NL and DE</li>
-<li><strong>ACC EAST</strong> - activates EBBU E</li>
-<li><strong>ACC WEST</strong> - activates EBBU W</li>
-<li><strong>FIS</strong> - activates the maps requiured for Flight Information Servives (EBBU FSS)</li>
+<li>.atis &#60;callsign&gt; - requests the ATIS of the specified controller.</li>
+<li>&#60;xxx.xxx&gt; &#60;message&gt; - send a message to the COM frequency specified by the x's. Note that you will not receive this message in your TXT IN window as you will not be tuned to that frequency!</li>
+<li>.pm &#60;callsign&gt; &#60;message&gt; - sends a private message just to the specified callsign. Works even if the callsign is outside visibility range.</li>
+<li>.atc &#60;message&gt; - sends a message to the ATC coordination channel.</li>
+<li>.guard &#60;message&gt; - sends a message to the safety-com channel.</li>
+<li>
+<p>.wallop &#60;message&gt; - sends a message to all online supervisors, requesting assistance.</p>
+</li>
+<li>
+<p>.bc &#60;message&gt; - broadcast a message to all network clients [Supervisor user only].</p>
+</li>
+<li>.kill &#60;callsign&gt; &#60;message&gt; - forcibly disconnect the callsign issuing the message [Supervisor use only].</li>
+<li>.info &#60;callsign&gt; - request connection information for the callsign [Supervisor user only].</li>
 </ul>
-<h2 id="ebaw">EBAW</h2>
+<p><em>The above messages may also be used in PM (personal message) dialogue, in which case the &#60;callsign&gt; may be left out as it will apply just to the user to whom the PM is addressed.</em></p>
+<h2 id="brt">BRT</h2>
+<p>Opens the brightness dialogue box, used to adjust the relative brightness of different map elements.</p>
+<p><img alt="BRT Image" src="../brt.png" title="BRT Image" /></p>
+<p><em>NOTE: Only the two (2) top items and the two (2) bottom items are fixed items, they show up in every FIRDEF. The middle section may look different depending on the FIR you are using as they are defined within the FIRDEF</em></p>
+<h2 id="filters">FILTERS</h2>
+<p>Opens the filter dialogue window, used to restrict which targets are visible dependant on their altitude/flight-level.</p>
+<p><img alt="Filters Image" src="../filters.png" title="Filters Image" /></p>
 <ul>
-<li><strong>EBAW TWR</strong> - activates the maps used for EBAW TWR</li>
+<li><strong>TOP</strong> - Any targets with a current level higher than specified will not be displayed on the radar.</li>
+<li><strong>HIGH</strong> - Targets with a current level higher than specified, but below the TOP level, will be displayed but using a different style of “Filtered” label. This enables a limited set of information to be displayed for targets that are “just above” the vertical limits of interest to the controller.</li>
+<li><strong>LOW</strong> - Targets with a current level lower than specified, but above the BOTTOM level, will be displayed but using a different style of “Filtered” label. This enables a limited set of information to be displayed for targets that are “just below” the vertical limits of interest to the controller.</li>
+<li><strong>BOTTOM</strong> - Any targets with a current level lower than specified will not be displayed on the radar.</li>
+<li><strong>ENABLE UP</strong> - If this is highlighted then the TOP/HIGH settings will be enabled; if it is not highlighted then the TOP/HIGH settings will be ignored and there will be no upwards filter.</li>
+<li><strong>ENABLE DOWN</strong> - If this is highlighted then the LOW/BOTTOM settings will be enabled; if it is not highlighted then the LOW/BOTTOM settings will be ignored and there will be no downwards filter.</li>
 </ul>
-<h2 id="ebbr">EBBR</h2>
-<ul>
-<li><strong>ARR 01/DEP 07</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR 19/DEP 19-25R</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR 25R/DEP 19-25R</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR/DEP 01</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR/DEP 07</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR/DEP 19</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR/DEP 25R-L</strong> - activates the maps for these runway operations (such as stopbars, centerlines, ...)</li>
-<li><strong>ARR 25R/L CATIII</strong> - activates the maps for these runway operations in CATIII conditions (such as stopbars, centerlines, ...)</li>
-<li><strong>EBBR APP DEP FINAL</strong> - activates the maps used for EBBR APP, EBBR DEP and EBBR FINAL APP</li>
-<li><strong>EBBR DEL/GND</strong> - activates the maps used for EBBR DEL and EBBR GND</li>
-</ul>
-<h2 id="ebci">EBCI</h2>
-<ul>
-<li><strong>EBCI APP</strong> - activates the maps used for EBCI APP</li>
-<li><strong>EBCI GND</strong> - activates the maps used for EBCI GND</li>
-<li><strong>EBCI TWR</strong> - activates the maps used for EBCI TWR</li>
-</ul>
-<h2 id="eblg">EBLG</h2>
-<ul>
-<li><strong>EBLG APP</strong> - activates the maps used for EBLG APP</li>
-<li><strong>EBLG GND</strong> - activates the maps used for EBLG GND</li>
-<li><strong>EBLG TWR</strong> - activates the maps used for EBLG TWR</li>
-</ul>
-<h2 id="ebos">EBOS</h2>
-<ul>
-<li><strong>EBOS APP</strong> - activates the maps used for EBOS APP</li>
-<li><strong>EBOS TWR</strong> - activates the maps used for EBOS TWR</li>
-</ul>
-<h2 id="military">Military</h2>
-<ul>
-<li><strong>EBBE APP</strong> - activates the maps used for EBBE APP</li>
-<li><strong>EBBE TWR</strong> - activates the maps used for EBBE TWR</li>
-</ul>
-<h2 id="muac">MUAC</h2>
-<ul>
-<li><strong>EDYY BRU</strong> - activates the maps used for EDYY BRU</li>
-</ul>
-<h2 id="rwy">RWY</h2>
-<ul>
-<li><strong>RWY East</strong> - actiavtes extended centerlines for all easterly runways</li>
-<li><strong>RWY West</strong> - actiavtes extended centerlines for all westerly runways</li>
-</ul>
-<h2 id="smr-surface-movement-radar">SMR (<em>Surface Movement Radar</em>)</h2>
-<ul>
-<li><strong>EBAW</strong> - opens an <em>inset</em> showing the SMR of EBAW</li>
-<li><strong>EBBR</strong> - opens an <em>inset</em> showing the SMR of EBBR</li>
-<li><strong>EBCI</strong> - opens an <em>inset</em> showing the SMR of EBCI</li>
-<li><strong>EBOS</strong> - opens an <em>inset</em> showing the SMR of EBOS</li>
-</ul></div>
+<h2 id="qlook">QLOOK</h2>
+<p>Temporarily removes any filters.</p>
+<h2 id="full">FULL</h2>
+<p>Toggles full-screen mode on or off.</p>
+<h2 id="menu">MENU</h2>
+<p>Toggles the menu bar on or off.</p></div>
         </div>
 
         <footer class="col-md-12">

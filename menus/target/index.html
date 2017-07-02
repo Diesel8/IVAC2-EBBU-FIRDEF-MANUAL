@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Introduction - IVAC2 EBBU FIRDEF Manual</title>
+	<title>Target Pop Up - IVAC2 EBBU FIRDEF Manual</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,31 +56,31 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menus <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../menus/introduction/">Introduction</a>
+    <a href="../introduction/">Introduction</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/general/">General Pop Up</a>
+    <a href="../general/">General Pop Up</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">Target Pop Up</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/target/">Target Pop Up</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../menus/callsign/">Callsign Pop Up</a>
+    <a href="../callsign/">Callsign Pop Up</a>
 </li>
 
                     
@@ -89,37 +89,37 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labels <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../../labels/introduction/">Introduction</a>
 </li>
 
                     
                         
 <li >
-    <a href="../labelsymbols/">Label Symbols</a>
+    <a href="../../labels/labelsymbols/">Label Symbols</a>
 </li>
 
                     
                         
 <li >
-    <a href="../groundLabels/">Ground Labels</a>
+    <a href="../../labels/groundLabels/">Ground Labels</a>
 </li>
 
                     
                         
 <li >
-    <a href="../airbornelabels/">Airborne Labels</a>
+    <a href="../../labels/airbornelabels/">Airborne Labels</a>
 </li>
 
                     
                         
 <li >
-    <a href="../labelindicators/">Label Indicators</a>
+    <a href="../../labels/labelindicators/">Label Indicators</a>
 </li>
 
                     
@@ -158,12 +158,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../../menus/callsign/">
+                    <a rel="next" href="../general/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../labelsymbols/">
+                    <a rel="prev" href="../callsign/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -186,58 +186,53 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#labels">Labels</a></li>
+        <li class="main active"><a href="#target-pop-up-menu">Target Pop Up Menu</a></li>
         
-            <li><a href="#general-knowledge">General knowledge</a></li>
+            <li><a href="#qdm">QDM</a></li>
         
-            <li><a href="#what-types-of-labels-are-there">What types of labels are there?</a></li>
+            <li><a href="#sep">SEP</a></li>
+        
+            <li><a href="#halo">HALO</a></li>
+        
+            <li><a href="#contact-frequency">CONTACT &gt; &#60;frequency&gt;</a></li>
+        
+            <li><a href="#pm">PM &gt;</a></li>
+        
+            <li><a href="#track">TRACK</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="labels">Labels</h1>
-<h2 id="general-knowledge">General knowledge</h2>
-<p>IVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.</p>
-<p>When using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the <em>extended label</em>.</p>
-<p>Next to that you will have different labels for different stages of the flight which we will explain in detail.</p>
-<p>The labels have been designed to match the CANAC2 system used at Belgocontrol.</p>
-<h2 id="what-types-of-labels-are-there">What types of labels are there?</h2>
-<p>As said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).</p>
-<p>In the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.</p>
-<h3 id="extended-labels">Extended Labels</h3>
-<p>Here you have an example of the difference between a normal label and an extended one. This works both on airborne as ground traffic. What information is visible in what state will be explained seperatly in their own section.</p>
-<table>
-<thead>
-<tr>
-<th>Normal</th>
-<th>Extended</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img alt="Normal Airborn Label Image" src="../normal-airborn.png" title="Normal Airborn Label Image" /></td>
-<td><img alt="Extended Airborn Label Image" src="../extended-airborn.png" title="Extended Airborn Label Image" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="ground-labels">Ground Labels</h3>
+<h1 id="target-pop-up-menu">Target Pop Up Menu</h1>
+<p>The <em>Target Pop Up Menu</em> can be triggerd by pressing the right mouse button on a target. A target is the symbol which represents an aircraft on your radar.</p>
+<p>And it looks like this</p>
+<p><img alt="Target Menu Image" src="../targetmenu.png" title="Target Menu Image" /></p>
+<h2 id="qdm">QDM</h2>
+<p>Displays the magnetic compass direction from the selected target to wherever the pointer is moved; when the mouse is next clicked, a line will be drawn between the two points. The numbers at the end of the line indicate the magnetic bearing from the initial point to the end point, and the number after the “/” indicates the distance between them in miles. If another radar target is double-clicked at the end of the QDM line, it will be locked to that line and move with the target, constantly updating the bearing and distance.</p>
+<p><img alt="Target QDM Image" src="../qdm2.png" title="Target QDM Image" /></p>
+<p>In the example above, ELLX is on a bearing of 203 degrees and 11.9 nautical miles from CLX235.</p>
+<h2 id="sep">SEP</h2>
+<p>Displays the SEP between the selected target and the target next clicked-on.</p>
 <ul>
-<li>Ground Default</li>
-<li>Ground Departure traffic</li>
-<li>Ground Arrival traffic</li>
+<li>After clicking SEP, double click on a 2nd radar target, two lines will be drawn on the map, showing the relative position of the two targets at the time they will have minimum separation.</li>
+<li>If the lines are behind the direction of travel, then the minimum separation was in the past… if the lines are in the same direction as the travel, then the minimum separation is in the future.</li>
+<li>A number will also be displayed which represents the number of miles between the two targets at the moment of minimum separation.</li>
+<li><strong>Note that the two lines will be constantly updated as the targets move.</strong></li>
 </ul>
-<h3 id="airborne-labels">Airborne labels</h3>
-<ul>
-<li>Airborne psr (sqwk SBY)</li>
-<li>Airborne default (default airborne label)</li>
-<li>Airborne concerned (label when your sector has been set NEXT)</li>
-<li>Airborne assumed (assumed label)</li>
-<li>Airborne filtered (label when filter is active)</li>
-<li>Airborne released (released label)</li>
-</ul>
-<p>The labels differ completely from IVAC1 so we will explain in detail what each label does.</p></div>
+<p><img alt="Target SEP Image" src="../sep.png" title="Target SEP Image" /></p>
+<h2 id="halo">HALO</h2>
+<p>Displays the HALO for the selected target.</p>
+<p><img alt="Target HALO Image" src="../halo.png" title="Target HALO Image" /></p>
+<p>See <a href="https://doc.terminal2solutions.com/doku.php?id=ivac2:menubar#halo" target="_blank">HALO Menu</a> for more info and options</p>
+<h2 id="contact-frequency">CONTACT &gt; &#60;frequency&gt;</h2>
+<p>This will send a message to the selected target (as a CPDLC transmission) instructing them to contact the controller making the request. The transmission will also include the COM frequency required to make the contact.</p>
+<h2 id="pm">PM &gt;</h2>
+<p>Opens a dialogue box to input a text message to be sent to the pilot of the aircraft as a private message.</p>
+<p><em>Only the individual pilot will be able to see the message.</em></p>
+<h2 id="track">TRACK</h2>
+<p>Display the track of the selected target.</p></div>
         </div>
 
         <footer class="col-md-12">

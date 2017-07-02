@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Introduction - IVAC2 EBBU FIRDEF Manual</title>
+	<title>Callsign Pop Up - IVAC2 EBBU FIRDEF Manual</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,31 +56,31 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menus <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../menus/introduction/">Introduction</a>
+    <a href="../introduction/">Introduction</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/general/">General Pop Up</a>
+    <a href="../general/">General Pop Up</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../menus/target/">Target Pop Up</a>
+    <a href="../target/">Target Pop Up</a>
 </li>
 
                     
                         
-<li >
-    <a href="../../menus/callsign/">Callsign Pop Up</a>
+<li class="active">
+    <a href="./">Callsign Pop Up</a>
 </li>
 
                     
@@ -89,37 +89,37 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labels <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../../labels/introduction/">Introduction</a>
 </li>
 
                     
                         
 <li >
-    <a href="../labelsymbols/">Label Symbols</a>
+    <a href="../../labels/labelsymbols/">Label Symbols</a>
 </li>
 
                     
                         
 <li >
-    <a href="../groundLabels/">Ground Labels</a>
+    <a href="../../labels/groundLabels/">Ground Labels</a>
 </li>
 
                     
                         
 <li >
-    <a href="../airbornelabels/">Airborne Labels</a>
+    <a href="../../labels/airbornelabels/">Airborne Labels</a>
 </li>
 
                     
                         
 <li >
-    <a href="../labelindicators/">Label Indicators</a>
+    <a href="../../labels/labelindicators/">Label Indicators</a>
 </li>
 
                     
@@ -158,12 +158,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../../menus/callsign/">
+                    <a rel="next" href="../target/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../labelsymbols/">
+                    <a rel="prev" href="../../labels/introduction/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -186,58 +186,87 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#labels">Labels</a></li>
+        <li class="main active"><a href="#callsign-pop-up-menu">Callsign Pop Up Menu</a></li>
         
-            <li><a href="#general-knowledge">General knowledge</a></li>
+            <li><a href="#assume">ASSUME</a></li>
         
-            <li><a href="#what-types-of-labels-are-there">What types of labels are there?</a></li>
+            <li><a href="#next">NEXT</a></li>
+        
+            <li><a href="#rof">ROF</a></li>
+        
+            <li><a href="#force-assume">FORCE ASSUME</a></li>
+        
+            <li><a href="#text">TEXT &gt;</a></li>
+        
+            <li><a href="#pm">PM &gt;</a></li>
+        
+            <li><a href="#cpdlc">CPDLC</a></li>
+        
+            <li><a href="#fpl">FPL</a></li>
+        
+            <li><a href="#coord">COORD</a></li>
+        
+            <li><a href="#assr">ASSR</a></li>
+        
+            <li><a href="#dcl">DCL</a></li>
+        
+            <li><a href="#explt">EXPLT</a></li>
+        
+            <li><a href="#hold">HOLD</a></li>
+        
+            <li><a href="#point">POINT</a></li>
+        
+            <li><a href="#mark">MARK</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="labels">Labels</h1>
-<h2 id="general-knowledge">General knowledge</h2>
-<p>IVAC2 offers the possibility to customise the labels in many levels. So this part of documentation is very important and quite a big chunk to go through.</p>
-<p>When using IVAC2 you will notice pretty fast that you will have more or lees details in a label depending if you hover over it or not. When you hover over a label you will see it extends and shows you more information about that flight. This is called the <em>extended label</em>.</p>
-<p>Next to that you will have different labels for different stages of the flight which we will explain in detail.</p>
-<p>The labels have been designed to match the CANAC2 system used at Belgocontrol.</p>
-<h2 id="what-types-of-labels-are-there">What types of labels are there?</h2>
-<p>As said above, the labels differ per flight stage and type (VFR, IFR, concerned, and so on).</p>
-<p>In the EBBU FIRDEF we have 2 sets of labels, one for airborne traffic and one for traffic on the ground.</p>
-<h3 id="extended-labels">Extended Labels</h3>
-<p>Here you have an example of the difference between a normal label and an extended one. This works both on airborne as ground traffic. What information is visible in what state will be explained seperatly in their own section.</p>
-<table>
-<thead>
-<tr>
-<th>Normal</th>
-<th>Extended</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img alt="Normal Airborn Label Image" src="../normal-airborn.png" title="Normal Airborn Label Image" /></td>
-<td><img alt="Extended Airborn Label Image" src="../extended-airborn.png" title="Extended Airborn Label Image" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="ground-labels">Ground Labels</h3>
-<ul>
-<li>Ground Default</li>
-<li>Ground Departure traffic</li>
-<li>Ground Arrival traffic</li>
-</ul>
-<h3 id="airborne-labels">Airborne labels</h3>
-<ul>
-<li>Airborne psr (sqwk SBY)</li>
-<li>Airborne default (default airborne label)</li>
-<li>Airborne concerned (label when your sector has been set NEXT)</li>
-<li>Airborne assumed (assumed label)</li>
-<li>Airborne filtered (label when filter is active)</li>
-<li>Airborne released (released label)</li>
-</ul>
-<p>The labels differ completely from IVAC1 so we will explain in detail what each label does.</p></div>
+<h1 id="callsign-pop-up-menu">Callsign Pop Up Menu</h1>
+<p>The <em>Callsign Pop Up Menu</em> can be triggerd by pressing the right or left mouse button on the callsign of a target.</p>
+<p>And it looks like this</p>
+<p><img alt="Callsign Menu Image" src="../callsignmenu.png" title="Callsign Menu Image" /></p>
+<h2 id="assume">ASSUME</h2>
+<p>Assume control of the selected target.</p>
+<p>When the aircraft is assumed the top part of the Callsign menu will look like this:</p>
+<p><img alt="Callsign Menu2 Image" src="../callsignmenu2.png" title="Callsign Menu2 Image" /></p>
+<p>ASSUME has been replaced by TRANSFER, which will transfer the aircraft to the controller you set as NEXT.</p>
+<p>RELEASE has been added, this will release the aircraft. More commenly known as released to unicom.</p>
+<h2 id="next">NEXT</h2>
+<p>Changes the menu to the "NEXT" sub-menu. used to choose the atc position which that target should contact next.</p>
+<h2 id="rof">ROF</h2>
+<p>Doesn't do anything in the current version of IVAC2. But will be used to indicate to another controller that you do an <em><strong>R</strong>equest <strong>O</strong>n <strong>F</strong>requency</em> of that aircraft.</p>
+<h2 id="force-assume">FORCE ASSUME</h2>
+<p>Assume control of the selected target, forcibly taking control even if the network indicates that a different controller has currently assumed the target.</p>
+<p><em>It does not take any action to request or force the pilot to make contact with you.</em></p>
+<h2 id="text">TEXT &gt;</h2>
+<p>Opens a dialogue box to input a text message to be sent to all pilots of the aircraft using the your COM frequency.</p>
+<p><em>All pilots tuned to your COM frequency will be able to see the message.</em></p>
+<h2 id="pm">PM &gt;</h2>
+<p>Opens a dialogue box to input a text message to be sent to the pilot of the aircraft as a private message.</p>
+<p><em>Only the individual pilot will be able to see the message.</em></p>
+<h2 id="cpdlc">CPDLC</h2>
+<p>Toggles whether or not to automatically send clearances using the Controller/Pilot Data Link Communications. This should be turned-on for pilots indicating they are “voice only” so that IVAC2 will automatically send CPDLC messages when making changes to cleared altitudes, headings etc.</p>
+<h2 id="fpl">FPL</h2>
+<p>Opens the flight plan dialogue box for the currently selected target.</p>
+<h2 id="coord">COORD</h2>
+<p>Doesn't do anything in the current version of IVAC2.</p>
+<h2 id="assr">ASSR</h2>
+<p>Doesn't do anything in the current version of IVAC2.</p>
+<h2 id="dcl">DCL</h2>
+<p>Opens the data-link clearance dialogue box for the currently selected target; it is used to issue flight-plan clearances.</p>
+<h2 id="explt">EXPLT</h2>
+<p>Displays the extrapolated route of the selected target. Can be removed by clicking the EXPLT button again or along with all other temporary markings by using the CLEAN button.</p>
+<h2 id="hold">HOLD</h2>
+<p>Toggles the “Hold” indicator for the selected target; if the target is already marked as held, then the menu option is highlighted and changes to “XHOLD” and used to cancel the hold.</p>
+<p><em>Targets marked as “Hold” can be listed together in a “Hold” flight-list.</em></p>
+<h2 id="point">POINT</h2>
+<p>Toggles the “Point Out” indicator for the selected target; if the target is already pointed out, then the menu option is highlighted and changes to “XPOINT” and used to cancel the point out.</p>
+<p><em>Targets which are pointed out have a box drawn around their label in a contrasting colour which is visible to all controllers using IVAC2.</em></p>
+<h2 id="mark">MARK</h2>
+<p>Toggles the “Mark” indicator for the selected target; if the target is already marked, then the menu option is highlighted and changes to “XMARK” and used to cancel the mark.</p>
+<p><em>Targets which are marked have a box drawn around their label which is visible just to yourself.</em></p></div>
         </div>
 
         <footer class="col-md-12">
